@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:MeshangerV-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -48,7 +48,7 @@ F 3 "~" H 5000 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L MeshangerV-rescue:USB_C_Receptacle_USB2.0-Connector J?
 U 1 1 5FBDAB30
 P 1200 2600
 F 0 "J?" H 1307 3467 50  0000 C CNN
@@ -106,7 +106,7 @@ needs 5v to program\n
 Wire Wire Line
 	5350 3250 5650 3250
 $Comp
-L BATMAN_TopPower:TP4056 U?
+L MeshangerV-rescue:TP4056-BATMAN_TopPower U?
 U 1 1 5FBEC96F
 P 2100 6300
 F 0 "U?" H 2075 6765 50  0000 C CNN
@@ -199,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 6400 3000 6400
 $Comp
-L MCU_Espressif:ESP32-C3 U?
+L MeshangerV-rescue:ESP32-C3-MCU_Espressif U?
 U 1 1 5FBE8965
 P 9700 3700
 F 0 "U?" H 9700 2011 50  0000 C CNN
@@ -711,7 +711,7 @@ Wire Wire Line
 Text Label 4050 6400 0    50   ~ 0
 V_BAT
 $Comp
-L Diodes_inc:AP3012KTR-G1 U?
+L MeshangerV-rescue:AP3012KTR-G1-Diodes_inc U?
 U 1 1 5FC8278B
 P 5650 6700
 F 0 "U?" H 5650 7165 50  0000 C CNN
@@ -1319,10 +1319,16 @@ Connection ~ 1200 3750
 Wire Wire Line
 	1200 3750 1200 3900
 $Sheet
-S 7700 650  1900 1100
+S 9050 600  1350 750 
 U 5FDFC263
 F0 "Display hardware" 50
 F1 "display.sch" 50
+F2 "3V3" I L 9050 700 50 
+F3 "GND" I L 9050 1250 50 
+F4 "LCD_CS" I R 10400 700 50 
+F5 "LCD_SCLK" I R 10400 800 50 
+F6 "LCD_MOSI" I R 10400 900 50 
+F7 "LCD_DC" I R 10400 1000 50 
 $EndSheet
 $Sheet
 S 5600 600  1550 750 
@@ -1336,5 +1342,11 @@ F5 "SCL" I R 7150 950 50
 F6 "INT" I R 7150 1100 50 
 F7 "GND" I L 5600 1100 50 
 F8 "LED_SD" I R 7150 1250 50 
+$EndSheet
+$Sheet
+S 5600 1550 1500 800 
+U 5FC5BE78
+F0 "antenna" 50
+F1 "antenna.sch" 50
 $EndSheet
 $EndSCHEMATC

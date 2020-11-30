@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MCU_WCH)(type Legacy)(uri /Users/gee/Documents/GitHub/Kicad-assets/symbol/MCU_WCH.lib)(options "")(descr ""))
   (lib (name BATMAN_TopPower)(type Legacy)(uri /Users/gee/Documents/GitHub/Kicad-assets/symbol/BATMAN_TopPower.lib)(options "")(descr ""))
+  (lib (name MeshangerV-rescue)(type Legacy)(uri ${KIPRJMOD}/MeshangerV-rescue.lib)(options "")(descr ""))
 )

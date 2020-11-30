@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:MeshangerV-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -27,7 +27,7 @@ INT
 Text HLabel 2000 1050 0    50   Input ~ 0
 GND
 $Comp
-L Useful_ICs:SN3218 U?
+L MeshangerV-rescue:SN3218-Useful_ICs U?
 U 1 1 5FE09172
 P 2850 4250
 F 0 "U?" H 2825 5365 50  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 3100 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Useful_ICs:AT42QT2120 U?
+L MeshangerV-rescue:AT42QT2120-Useful_ICs U?
 U 1 1 5FE0B088
 P 6750 1700
 F 0 "U?" H 6775 2475 50  0000 C CNN
