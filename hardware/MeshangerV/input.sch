@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:MeshangerV-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -704,28 +704,6 @@ Connection ~ 1350 3350
 Text Label 1350 3450 0    50   ~ 0
 GND
 $Comp
-L Device:R_Small R?
-U 1 1 5FEC910A
-P 1550 1850
-F 0 "R?" H 1609 1896 50  0000 L CNN
-F 1 "R_Small" H 1609 1805 50  0000 L CNN
-F 2 "" H 1550 1850 50  0001 C CNN
-F 3 "~" H 1550 1850 50  0001 C CNN
-	1    1550 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5FEC96E3
-P 1150 1850
-F 0 "R?" H 1209 1896 50  0000 L CNN
-F 1 "R_Small" H 1209 1805 50  0000 L CNN
-F 2 "" H 1150 1850 50  0001 C CNN
-F 3 "~" H 1150 1850 50  0001 C CNN
-	1    1150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR?
 U 1 1 5FEC9D64
 P 5700 650
@@ -758,42 +736,25 @@ Wire Wire Line
 Connection ~ 5700 800 
 Wire Wire Line
 	5700 800  5700 650 
-$Comp
-L Device:R_Small R?
-U 1 1 5FED518F
-P 1900 1850
-F 0 "R?" H 1959 1896 50  0000 L CNN
-F 1 "R_Small" H 1959 1805 50  0000 L CNN
-F 2 "" H 1900 1850 50  0001 C CNN
-F 3 "~" H 1900 1850 50  0001 C CNN
-	1    1900 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 1750 1150 1550
 Wire Wire Line
-	1150 1550 1550 1550
+	1150 1550 1250 1550
 Wire Wire Line
-	1550 1550 1550 1750
+	1250 1550 1250 1750
 Connection ~ 1150 1550
 Wire Wire Line
 	1150 1550 1150 1450
 Wire Wire Line
-	1550 1550 1900 1550
+	1250 1550 1350 1550
 Wire Wire Line
-	1900 1550 1900 1750
-Connection ~ 1550 1550
-Wire Wire Line
-	1150 1950 1150 2150
-Wire Wire Line
-	1550 1950 1550 2150
-Wire Wire Line
-	1900 1950 1900 2150
-Text Label 1550 2150 0    50   ~ 0
+	1350 1550 1350 1750
+Connection ~ 1250 1550
+Text Label 1250 2400 1    50   ~ 0
 SCL
-Text Label 1900 2150 0    50   ~ 0
+Text Label 1350 2400 1    50   ~ 0
 T_INT
-Text Label 1150 2150 0    50   ~ 0
+Text Label 1150 2400 1    50   ~ 0
 SDA
 $Comp
 L power:+3V3 #PWR?
@@ -826,23 +787,32 @@ Wire Wire Line
 	2300 950  2000 950 
 Wire Wire Line
 	2000 1050 2300 1050
+Wire Wire Line
+	1450 1750 1450 1550
+Text Label 1450 2400 1    50   ~ 0
+LED_SD
+Wire Wire Line
+	1350 1550 1450 1550
+Connection ~ 1350 1550
 $Comp
-L Device:R_Small R?
-U 1 1 5FF2D759
-P 2400 1850
-F 0 "R?" H 2459 1896 50  0000 L CNN
-F 1 "R_Small" H 2459 1805 50  0000 L CNN
-F 2 "" H 2400 1850 50  0001 C CNN
-F 3 "~" H 2400 1850 50  0001 C CNN
-	1    2400 1850
+L Device:R_Pack04 RN?
+U 1 1 5FEA8355
+P 1350 1950
+AR Path="/5FEA8355" Ref="RN?"  Part="1" 
+AR Path="/5FDFCE72/5FEA8355" Ref="RN?"  Part="1" 
+F 0 "RN?" H 1538 1996 50  0000 L CNN
+F 1 "R_Pack04" H 1538 1905 50  0000 L CNN
+F 2 "" V 1625 1950 50  0001 C CNN
+F 3 "~" H 1350 1950 50  0001 C CNN
+	1    1350 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 1750 2400 1550
+	1150 2400 1150 2150
 Wire Wire Line
-	2400 1950 2400 2150
-Text Label 2400 2150 0    50   ~ 0
-GND
-Text Label 2400 1550 0    50   ~ 0
-LED_SD
+	1250 2400 1250 2150
+Wire Wire Line
+	1350 2400 1350 2150
+Wire Wire Line
+	1450 2400 1450 2150
 $EndSCHEMATC
