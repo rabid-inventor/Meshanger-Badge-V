@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:MeshangerV-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,56 +27,56 @@ INT
 Text HLabel 2000 1050 0    50   Input ~ 0
 GND
 $Comp
-L MeshangerV-rescue:SN3218-Useful_ICs U?
+L MeshangerV-rescue:SN3218-Useful_ICs U7
 U 1 1 5FE09172
 P 2850 4250
-F 0 "U?" H 2825 5365 50  0000 C CNN
+F 0 "U7" H 2825 5365 50  0000 C CNN
 F 1 "SN3218" H 2825 5274 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm_ThermalVias" H 2850 3050 50  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-24_4x4mm_Pitch0.5mm" H 2850 3050 50  0001 C CNN
 F 3 "" H 3100 4800 50  0001 C CNN
 	1    2850 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L MeshangerV-rescue:AT42QT2120-Useful_ICs U?
+L MeshangerV-rescue:AT42QT2120-Useful_ICs U8
 U 1 1 5FE0B088
 P 6750 1700
-F 0 "U?" H 6775 2475 50  0000 C CNN
+F 0 "U8" H 6775 2475 50  0000 C CNN
 F 1 "AT42QT2120" H 6775 2384 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm" H 6750 1000 50  0001 C CNN
+F 2 "Housings_DFN_QFN:ST_UFQFPN-20_3x3mm_Pitch0.5mm" H 6750 1000 50  0001 C CNN
 F 3 "" H 7050 1700 50  0001 C CNN
 	1    6750 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5FE0E5BE
 P 9650 2000
-F 0 "TP?" H 9708 2118 50  0000 L CNN
+F 0 "TP4" H 9708 2118 50  0000 L CNN
 F 1 "TestPoint" H 9708 2027 50  0000 L CNN
-F 2 "" H 9850 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9850 2000 50  0001 C CNN
 F 3 "~" H 9850 2000 50  0001 C CNN
 	1    9650 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 5FE0F026
 P 9650 2550
-F 0 "TP?" H 9708 2668 50  0000 L CNN
+F 0 "TP5" H 9708 2668 50  0000 L CNN
 F 1 "TestPoint" H 9708 2577 50  0000 L CNN
-F 2 "" H 9850 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9850 2550 50  0001 C CNN
 F 3 "~" H 9850 2550 50  0001 C CNN
 	1    9650 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5FE0FB3B
 P 9650 3050
-F 0 "TP?" H 9708 3168 50  0000 L CNN
+F 0 "TP6" H 9708 3168 50  0000 L CNN
 F 1 "TestPoint" H 9708 3077 50  0000 L CNN
-F 2 "" H 9850 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9850 3050 50  0001 C CNN
 F 3 "~" H 9850 3050 50  0001 C CNN
 	1    9650 3050
 	0    1    1    0   
@@ -106,12 +106,12 @@ Wire Wire Line
 Wire Wire Line
 	9500 2000 9650 2000
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5FE11E23
 P 9800 900
-F 0 "J?" H 9880 942 50  0000 L CNN
+F 0 "J4" H 9880 942 50  0000 L CNN
 F 1 "Conn_01x03" H 9880 851 50  0000 L CNN
-F 2 "" H 9800 900 50  0001 C CNN
+F 2 "footprint:touchwheel" H 9800 900 50  0001 C CNN
 F 3 "~" H 9800 900 50  0001 C CNN
 	1    9800 900 
 	1    0    0    -1  
@@ -123,23 +123,23 @@ Wire Wire Line
 Wire Wire Line
 	9050 1000 9600 1000
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP8
 U 1 1 5FE18181
 P 10400 2550
-F 0 "TP?" H 10458 2668 50  0000 L CNN
+F 0 "TP8" H 10458 2668 50  0000 L CNN
 F 1 "TestPoint" H 10458 2577 50  0000 L CNN
-F 2 "" H 10600 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 10600 2550 50  0001 C CNN
 F 3 "~" H 10600 2550 50  0001 C CNN
 	1    10400 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5FE18187
 P 9000 2550
-F 0 "TP?" H 9058 2668 50  0000 L CNN
+F 0 "TP2" H 9058 2668 50  0000 L CNN
 F 1 "TestPoint" H 9058 2577 50  0000 L CNN
-F 2 "" H 9200 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9200 2550 50  0001 C CNN
 F 3 "~" H 9200 2550 50  0001 C CNN
 	1    9000 2550
 	0    1    1    0   
@@ -149,23 +149,23 @@ Wire Wire Line
 Wire Wire Line
 	10250 2550 10400 2550
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP7
 U 1 1 5FE1AC28
 P 10400 2000
-F 0 "TP?" H 10458 2118 50  0000 L CNN
+F 0 "TP7" H 10458 2118 50  0000 L CNN
 F 1 "TestPoint" H 10458 2027 50  0000 L CNN
-F 2 "" H 10600 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 10600 2000 50  0001 C CNN
 F 3 "~" H 10600 2000 50  0001 C CNN
 	1    10400 2000
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5FE1AC2E
 P 9000 2000
-F 0 "TP?" H 9058 2118 50  0000 L CNN
+F 0 "TP1" H 9058 2118 50  0000 L CNN
 F 1 "TestPoint" H 9058 2027 50  0000 L CNN
-F 2 "" H 9200 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9200 2000 50  0001 C CNN
 F 3 "~" H 9200 2000 50  0001 C CNN
 	1    9000 2000
 	0    1    1    0   
@@ -175,23 +175,23 @@ Wire Wire Line
 Wire Wire Line
 	10250 2000 10400 2000
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP9
 U 1 1 5FE1C4AC
 P 10400 3050
-F 0 "TP?" H 10458 3168 50  0000 L CNN
+F 0 "TP9" H 10458 3168 50  0000 L CNN
 F 1 "TestPoint" H 10458 3077 50  0000 L CNN
-F 2 "" H 10600 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 10600 3050 50  0001 C CNN
 F 3 "~" H 10600 3050 50  0001 C CNN
 	1    10400 3050
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5FE1C4B2
 P 9000 3050
-F 0 "TP?" H 9058 3168 50  0000 L CNN
+F 0 "TP3" H 9058 3168 50  0000 L CNN
 F 1 "TestPoint" H 9058 3077 50  0000 L CNN
-F 2 "" H 9200 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 9200 3050 50  0001 C CNN
 F 3 "~" H 9200 3050 50  0001 C CNN
 	1    9000 3050
 	0    1    1    0   
@@ -267,140 +267,140 @@ GND
 Text Label 2300 1050 0    50   ~ 0
 GND
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D6
 U 1 1 5FE2274E
 P 5650 3850
-F 0 "D?" H 5650 4347 50  0000 C CNN
+F 0 "D6" H 5650 4347 50  0000 C CNN
 F 1 "LED_RABG" H 5650 4256 50  0000 C CNN
-F 2 "" H 5650 3800 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 5650 3800 50  0001 C CNN
 F 3 "~" H 5650 3800 50  0001 C CNN
 	1    5650 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D7
 U 1 1 5FE23FC2
 P 5650 4800
-F 0 "D?" H 5650 5297 50  0000 C CNN
+F 0 "D7" H 5650 5297 50  0000 C CNN
 F 1 "LED_RABG" H 5650 5206 50  0000 C CNN
-F 2 "" H 5650 4750 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 5650 4750 50  0001 C CNN
 F 3 "~" H 5650 4750 50  0001 C CNN
 	1    5650 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D8
 U 1 1 5FE276D6
 P 6550 3850
-F 0 "D?" H 6550 4347 50  0000 C CNN
+F 0 "D8" H 6550 4347 50  0000 C CNN
 F 1 "LED_RABG" H 6550 4256 50  0000 C CNN
-F 2 "" H 6550 3800 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 6550 3800 50  0001 C CNN
 F 3 "~" H 6550 3800 50  0001 C CNN
 	1    6550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D9
 U 1 1 5FE29A9D
 P 6550 4800
-F 0 "D?" H 6550 5297 50  0000 C CNN
+F 0 "D9" H 6550 5297 50  0000 C CNN
 F 1 "LED_RABG" H 6550 5206 50  0000 C CNN
-F 2 "" H 6550 4750 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 6550 4750 50  0001 C CNN
 F 3 "~" H 6550 4750 50  0001 C CNN
 	1    6550 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D10
 U 1 1 5FE2B3F3
 P 7400 3850
-F 0 "D?" H 7400 4347 50  0000 C CNN
+F 0 "D10" H 7400 4347 50  0000 C CNN
 F 1 "LED_RABG" H 7400 4256 50  0000 C CNN
-F 2 "" H 7400 3800 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 7400 3800 50  0001 C CNN
 F 3 "~" H 7400 3800 50  0001 C CNN
 	1    7400 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_RABG D?
+L Device:LED_RABG D11
 U 1 1 5FE2EED3
 P 7400 4750
-F 0 "D?" H 7400 5247 50  0000 C CNN
+F 0 "D11" H 7400 5247 50  0000 C CNN
 F 1 "LED_RABG" H 7400 5156 50  0000 C CNN
-F 2 "" H 7400 4700 50  0001 C CNN
+F 2 "LED_SMD:LED_Kingbright_APFA3010_3x1.5mm_Horizontal" H 7400 4700 50  0001 C CNN
 F 3 "~" H 7400 4700 50  0001 C CNN
 	1    7400 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 3400 4100 3400
-Text Label 4100 3400 0    50   ~ 0
+Text Label 4100 3600 0    50   ~ 0
 1R
 Wire Wire Line
 	3600 3500 4100 3500
 Text Label 4100 3500 0    50   ~ 0
 1G
-Text Label 4100 3600 0    50   ~ 0
+Text Label 4100 3400 0    50   ~ 0
 1B
 Wire Wire Line
 	4100 3600 3600 3600
 Wire Wire Line
 	3600 3700 4100 3700
-Text Label 4100 3700 0    50   ~ 0
+Text Label 4100 3900 0    50   ~ 0
 2R
 Wire Wire Line
 	3600 3800 4100 3800
 Text Label 4100 3800 0    50   ~ 0
 2G
-Text Label 4100 3900 0    50   ~ 0
+Text Label 4100 3700 0    50   ~ 0
 2B
 Wire Wire Line
 	4100 3900 3600 3900
 Wire Wire Line
 	3600 4000 4100 4000
-Text Label 4100 4000 0    50   ~ 0
+Text Label 4100 4200 0    50   ~ 0
 3R
 Wire Wire Line
 	3600 4100 4100 4100
 Text Label 4100 4100 0    50   ~ 0
 3G
-Text Label 4100 4200 0    50   ~ 0
+Text Label 4100 4000 0    50   ~ 0
 3B
 Wire Wire Line
 	4100 4200 3600 4200
 Wire Wire Line
 	3600 4300 4100 4300
-Text Label 4100 4300 0    50   ~ 0
+Text Label 4100 4500 0    50   ~ 0
 4R
 Wire Wire Line
 	3600 4400 4100 4400
 Text Label 4100 4400 0    50   ~ 0
 4G
-Text Label 4100 4500 0    50   ~ 0
+Text Label 4100 4300 0    50   ~ 0
 4B
 Wire Wire Line
 	4100 4500 3600 4500
 Wire Wire Line
 	3600 4600 4100 4600
-Text Label 4100 4600 0    50   ~ 0
+Text Label 4100 4800 0    50   ~ 0
 5R
 Wire Wire Line
 	3600 4700 4100 4700
 Text Label 4100 4700 0    50   ~ 0
 5G
-Text Label 4100 4800 0    50   ~ 0
+Text Label 4100 4600 0    50   ~ 0
 5B
 Wire Wire Line
 	4100 4800 3600 4800
 Wire Wire Line
 	3600 4900 4100 4900
-Text Label 4100 4900 0    50   ~ 0
+Text Label 4100 5100 0    50   ~ 0
 6R
 Wire Wire Line
 	3600 5000 4100 5000
 Text Label 4100 5000 0    50   ~ 0
 6G
-Text Label 4100 5100 0    50   ~ 0
+Text Label 4100 4900 0    50   ~ 0
 6B
 Wire Wire Line
 	4100 5100 3600 5100
@@ -528,10 +528,10 @@ Connection ~ 5950 3850
 Wire Wire Line
 	5950 3850 5950 3200
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0161
 U 1 1 5FE7CAA9
 P 1000 800
-F 0 "#PWR?" H 1000 650 50  0001 C CNN
+F 0 "#PWR0161" H 1000 650 50  0001 C CNN
 F 1 "+5V" H 1015 973 50  0000 C CNN
 F 2 "" H 1000 800 50  0001 C CNN
 F 3 "" H 1000 800 50  0001 C CNN
@@ -539,10 +539,10 @@ F 3 "" H 1000 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0162
 U 1 1 5FE7D20E
 P 1150 1450
-F 0 "#PWR?" H 1150 1300 50  0001 C CNN
+F 0 "#PWR0162" H 1150 1300 50  0001 C CNN
 F 1 "+3V3" H 1165 1623 50  0000 C CNN
 F 2 "" H 1150 1450 50  0001 C CNN
 F 3 "" H 1150 1450 50  0001 C CNN
@@ -550,10 +550,10 @@ F 3 "" H 1150 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0163
 U 1 1 5FE7D265
 P 5950 3200
-F 0 "#PWR?" H 5950 3050 50  0001 C CNN
+F 0 "#PWR0163" H 5950 3050 50  0001 C CNN
 F 1 "+5V" H 5965 3373 50  0000 C CNN
 F 2 "" H 5950 3200 50  0001 C CNN
 F 3 "" H 5950 3200 50  0001 C CNN
@@ -561,10 +561,10 @@ F 3 "" H 5950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0164
 U 1 1 5FE7DDE7
 P 6800 3200
-F 0 "#PWR?" H 6800 3050 50  0001 C CNN
+F 0 "#PWR0164" H 6800 3050 50  0001 C CNN
 F 1 "+5V" H 6815 3373 50  0000 C CNN
 F 2 "" H 6800 3200 50  0001 C CNN
 F 3 "" H 6800 3200 50  0001 C CNN
@@ -572,10 +572,10 @@ F 3 "" H 6800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0165
 U 1 1 5FE7E786
 P 7650 3200
-F 0 "#PWR?" H 7650 3050 50  0001 C CNN
+F 0 "#PWR0165" H 7650 3050 50  0001 C CNN
 F 1 "+5V" H 7665 3373 50  0000 C CNN
 F 2 "" H 7650 3200 50  0001 C CNN
 F 3 "" H 7650 3200 50  0001 C CNN
@@ -623,12 +623,12 @@ LED_SD
 Text Label 2300 950  0    50   ~ 0
 LED_SD
 $Comp
-L Device:R_Small R?
+L Device:R_Small R14
 U 1 1 5FEA12F4
 P 1900 4800
-F 0 "R?" H 1959 4846 50  0000 L CNN
+F 0 "R14" H 1959 4846 50  0000 L CNN
 F 1 "R_Small" H 1959 4755 50  0000 L CNN
-F 2 "" H 1900 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 4800 50  0001 C CNN
 F 3 "~" H 1900 4800 50  0001 C CNN
 	1    1900 4800
 	1    0    0    -1  
@@ -646,10 +646,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 3400 1750 3000
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0166
 U 1 1 5FEAB322
 P 1750 2950
-F 0 "#PWR?" H 1750 2800 50  0001 C CNN
+F 0 "#PWR0166" H 1750 2800 50  0001 C CNN
 F 1 "+3V3" H 1765 3123 50  0000 C CNN
 F 2 "" H 1750 2950 50  0001 C CNN
 F 3 "" H 1750 2950 50  0001 C CNN
@@ -659,23 +659,23 @@ $EndComp
 Wire Wire Line
 	1900 4900 1900 5100
 $Comp
-L Device:C_Small C?
+L Device:C_Small C28
 U 1 1 5FEB0260
 P 1350 3150
-F 0 "C?" H 1442 3196 50  0000 L CNN
+F 0 "C28" H 1442 3196 50  0000 L CNN
 F 1 "C_Small" H 1442 3105 50  0000 L CNN
-F 2 "" H 1350 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1350 3150 50  0001 C CNN
 F 3 "~" H 1350 3150 50  0001 C CNN
 	1    1350 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C27
 U 1 1 5FEB1717
 P 1050 3150
-F 0 "C?" H 1142 3196 50  0000 L CNN
+F 0 "C27" H 1142 3196 50  0000 L CNN
 F 1 "C_Small" H 1142 3105 50  0000 L CNN
-F 2 "" H 1050 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1050 3150 50  0001 C CNN
 F 3 "~" H 1050 3150 50  0001 C CNN
 	1    1050 3150
 	1    0    0    -1  
@@ -704,10 +704,10 @@ Connection ~ 1350 3350
 Text Label 1350 3450 0    50   ~ 0
 GND
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0167
 U 1 1 5FEC9D64
 P 5700 650
-F 0 "#PWR?" H 5700 500 50  0001 C CNN
+F 0 "#PWR0167" H 5700 500 50  0001 C CNN
 F 1 "+3V3" H 5715 823 50  0000 C CNN
 F 2 "" H 5700 650 50  0001 C CNN
 F 3 "" H 5700 650 50  0001 C CNN
@@ -719,12 +719,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 1300 5300 1150
 $Comp
-L Device:R_Small R?
+L Device:R_Small R15
 U 1 1 5FECF78F
 P 5300 1050
-F 0 "R?" H 5359 1096 50  0000 L CNN
+F 0 "R15" H 5359 1096 50  0000 L CNN
 F 1 "R_Small" H 5359 1005 50  0000 L CNN
-F 2 "" H 5300 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 1050 50  0001 C CNN
 F 3 "~" H 5300 1050 50  0001 C CNN
 	1    5300 1050
 	1    0    0    -1  
@@ -757,10 +757,10 @@ T_INT
 Text Label 1150 2400 1    50   ~ 0
 SDA
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0168
 U 1 1 5FEF79D2
 P 1550 800
-F 0 "#PWR?" H 1550 650 50  0001 C CNN
+F 0 "#PWR0168" H 1550 650 50  0001 C CNN
 F 1 "+3V3" H 1565 973 50  0000 C CNN
 F 2 "" H 1550 800 50  0001 C CNN
 F 3 "" H 1550 800 50  0001 C CNN
@@ -799,10 +799,10 @@ L Device:R_Pack04 RN?
 U 1 1 5FEA8355
 P 1350 1950
 AR Path="/5FEA8355" Ref="RN?"  Part="1" 
-AR Path="/5FDFCE72/5FEA8355" Ref="RN?"  Part="1" 
-F 0 "RN?" H 1538 1996 50  0000 L CNN
+AR Path="/5FDFCE72/5FEA8355" Ref="RN2"  Part="1" 
+F 0 "RN2" H 1538 1996 50  0000 L CNN
 F 1 "R_Pack04" H 1538 1905 50  0000 L CNN
-F 2 "" V 1625 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 1625 1950 50  0001 C CNN
 F 3 "~" H 1350 1950 50  0001 C CNN
 	1    1350 1950
 	1    0    0    -1  

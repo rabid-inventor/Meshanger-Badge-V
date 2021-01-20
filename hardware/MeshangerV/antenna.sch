@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:MeshangerV-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,34 +21,34 @@ GND
 Text HLabel 3550 1050 0    50   Input ~ 0
 VCC
 $Comp
-L Device:L_Small L?
+L Device:L_Small L3
 U 1 1 5FC5BF06
 P 4400 3200
-F 0 "L?" H 4447 3246 50  0000 L CNN
+F 0 "L3" H 4447 3246 50  0000 L CNN
 F 1 "L_Small" H 4447 3155 50  0000 L CNN
-F 2 "" H 4400 3200 50  0001 C CNN
+F 2 "Inductors_SMD:L_0805" H 4400 3200 50  0001 C CNN
 F 3 "~" H 4400 3200 50  0001 C CNN
 	1    4400 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C30
 U 1 1 5FC5BFAB
 P 4950 3550
-F 0 "C?" H 5042 3596 50  0000 L CNN
+F 0 "C30" H 5042 3596 50  0000 L CNN
 F 1 "C_Small" H 5042 3505 50  0000 L CNN
-F 2 "" H 4950 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 3550 50  0001 C CNN
 F 3 "~" H 4950 3550 50  0001 C CNN
 	1    4950 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C29
 U 1 1 5FC5C01F
 P 3750 3550
-F 0 "C?" H 3842 3596 50  0000 L CNN
+F 0 "C29" H 3842 3596 50  0000 L CNN
 F 1 "C_Small" H 3842 3505 50  0000 L CNN
-F 2 "" H 3750 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 3550 50  0001 C CNN
 F 3 "~" H 3750 3550 50  0001 C CNN
 	1    3750 3550
 	1    0    0    -1  
@@ -66,12 +66,12 @@ Wire Wire Line
 Wire Wire Line
 	4950 3650 4950 4100
 $Comp
-L Connector:Conn_Coaxial J?
+L Connector:Conn_Coaxial J5
 U 1 1 5FC624A8
 P 5500 3200
-F 0 "J?" H 5600 3175 50  0000 L CNN
+F 0 "J5" H 5600 3175 50  0000 L CNN
 F 1 "Conn_Coaxial" H 5600 3084 50  0000 L CNN
-F 2 "" H 5500 3200 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 5500 3200 50  0001 C CNN
 F 3 " ~" H 5500 3200 50  0001 C CNN
 	1    5500 3200
 	1    0    0    -1  
